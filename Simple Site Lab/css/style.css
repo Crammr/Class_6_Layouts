@@ -1,0 +1,109 @@
+/*
+===============================
+Layout
+===============================
+*/
+* {
+    box-sizing: border-box;
+    cursor: pointer;
+    clear: both;
+}
+
+body{
+    width: 50%;
+    height: auto;
+    padding: 25px 40px;
+    margin: 20px 290px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+h2, article {
+    clear: both;
+}
+
+img {
+    float: right;
+    padding: 20px;
+    width: 33.3333%;
+    height: auto;
+    display: inline;
+    
+}
+
+article {
+    text-align: justify;
+}
+
+nav, ul, li, a, span {
+    display: inline-block; 
+}
+
+ul{
+    display: center;
+}
+
+
+p {
+    font-size: 130%;
+   
+}
+
+li + li,
+li + li + li {
+    border-left: 3px solid rgb(128, 139, 143);
+    padding: 4px;
+    
+}
+
+/*
+===============================
+Colors & Fonts
+===============================
+*/
+body {
+    border: 5px solid rgb(72, 205, 49);
+    background: rgb(135, 206, 235);
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5; 
+    color: white;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    clear: both;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 700;
+}
+ul {
+    list-style-type: none;
+}
+.top-nav, .bottom-nav {
+    color: rgb(74, 204, 153);
+    font-size: 18px;
+    font-weight: 700;
+    float: center;
+}
+a {
+    display: block;
+
+}
+span {
+    color: rgb(128, 139, 143);
+    font-size: 24px;
+}
+
+/*
+===============================
+Extra
+===============================
+*/
